@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b6f5e4-2baf-4b99-ba85-c9cc1c59a4dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/controller/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/filter/LoginFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/UserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -317,7 +310,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554114659184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554116874131" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -432,12 +425,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554059685745</updated>
       <workItem from="1554059688985" duration="44000" />
-      <workItem from="1554059783518" duration="25401000" />
+      <workItem from="1554059783518" duration="26002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25445000" />
+    <option name="totallyTimeSpent" value="26046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
