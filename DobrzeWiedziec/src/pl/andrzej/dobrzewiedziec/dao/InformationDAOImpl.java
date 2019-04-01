@@ -3,6 +3,10 @@ package pl.andrzej.dobrzewiedziec.dao;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Map;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
@@ -11,12 +15,15 @@ import org.springframework.jdbc.support.KeyHolder;
 
 import pl.andrzej.dobrzewiedziec.model.Information;
 import pl.andrzej.dobrzewiedziec.util.ConnectionProvider;
+import pl.andrzej.dobrzewiedziec.model.User;
 
 public class InformationDAOImpl implements InformationDAO {
 
     private static final String CREATE_INFORMATION =
             "INSERT INTO information(name, description, url, user_id, date, up_vote, down_vote) VALUES(:name, :description, :url, :user_id, :date, :up_vote, :down_vote);";
-
+    private static final String READ_ALL_INFORMATIONS =
+            "SELECT user.user_id, username, email, is_active, password, information_id, name, description, url, date, up_vote, down_vote "
+                    + "FROM information LEFT JOIN user ON information.user_id=user.user_id;";
     private NamedParameterJdbcTemplate template;
 
     public InformationDAOImpl() {
@@ -59,7 +66,28 @@ public class InformationDAOImpl implements InformationDAO {
 
     @Override
     public List<Information> getAll() {
-        return null;
+        List<Information> informations = template.query(READ_ALL_INFORMATIONS, new InformationRowMapper());
+        return informations;
+    }
+    private class InformationRowMapper implements RowMapper<Information> {
+        @Override
+        public Information mapRow(ResultSet resultSet, int row) throws SQLException {
+            Information information = new Information();
+            information.setId(resultSet.getLong("information_id"));
+            information.setName(resultSet.getString("name"));
+            information.setDescription(resultSet.getString("description"));
+            information.setUrl(resultSet.getString("url"));
+            information.setUpVote(resultSet.getInt("up_vote"));
+            information.setDownVote(resultSet.getInt("down_vote"));
+            information.setTimestamp(resultSet.getTimestamp("date"));
+            User user = new User();
+            user.setId(resultSet.getLong("user_id"));
+            user.setUsername(resultSet.getString("username"));
+            user.setEmail(resultSet.getString("email"));
+            user.setPassword(resultSet.getString("password"));
+            information.setUser(user);
+            return information;
+        }
     }
 
 }

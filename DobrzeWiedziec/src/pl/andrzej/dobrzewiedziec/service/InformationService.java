@@ -1,5 +1,7 @@
 package pl.andrzej.dobrzewiedziec.service;
 import java.sql.Timestamp;
+import java.util.Comparator;
+import java.util.List;
 import java.util.Date;
 import pl.andrzej.dobrzewiedziec.dao.DAOFactory;
 import pl.andrzej.dobrzewiedziec.dao.InformationDAO;
@@ -22,5 +24,18 @@ public class InformationService {
         information.setUser(userCopy);
         information.setTimestamp(new Timestamp(new Date().getTime()));
         return information;
+    }
+    public List<Information> getAllInformations() {
+        return getAllInformations(null);
+    }
+
+    public List<Information> getAllInformations(Comparator<Information> comparator) {
+        DAOFactory factory = DAOFactory.getDAOFactory();
+        InformationDAO discoveryDao = factory.getInformationDAO();
+        List<Information> informations = discoveryDao.getAll();
+        if(comparator != null && informations != null) {
+            informations.sort(comparator);
+        }
+        return informations;
     }
 }
