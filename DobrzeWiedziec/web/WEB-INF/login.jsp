@@ -10,25 +10,7 @@
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
-<nav class = "navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <a href="#" class="navbar-brand">DobrzeWiedzieć</a>
-
-        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-            <span class="glyphicon glyphicon-list"></span>
-        </button>
-
-        <div class="collapse navbar-collapse navHeaderCollapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Główna</a></li>
-                <li><a href="#">Dodaj</a></li>
-                <li><a href="#">Zaloguj się</a></li>
-            </ul>
-        </div>
-
-    </div>
-</nav>
+<jsp:include page="parts/navbar.jspf" />
 
 <div class="container">
     <div class="col-sm-6 col-md-4 col-md-offset-4">
@@ -42,11 +24,7 @@
     </div>
 </div>
 
-<footer class="footer">
-    <div class="container">
-        <p class="navbar-text">DobrzeWiedzieć - <a href="http://andrzejbronski.pl">Andrzej</a></p>
-    </div>
-</footer>
+<jsp:include page="parts/footer.jspf" />
 
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

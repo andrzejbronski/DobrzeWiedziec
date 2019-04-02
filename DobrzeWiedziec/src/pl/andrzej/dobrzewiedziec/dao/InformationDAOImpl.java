@@ -50,7 +50,8 @@ public class InformationDAOImpl implements InformationDAO {
         SqlParameterSource paramSource = new MapSqlParameterSource(paramMap);
         int update = template.update(CREATE_INFORMATION, paramSource, holder);
         if(update > 0) {
-            resultInformation.setId((Long)holder.getKey());
+           // resultInformation.setId((Long)holder.getKey());
+            resultInformation.setId(holder.getKey().longValue());
         }
         return resultInformation;
     }
