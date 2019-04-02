@@ -24,6 +24,12 @@ public class InformationDAOImpl implements InformationDAO {
     private static final String READ_ALL_INFORMATIONS =
             "SELECT user.user_id, username, email, is_active, password, information_id, name, description, url, date, up_vote, down_vote "
                     + "FROM information LEFT JOIN user ON information.user_id=user.user_id;";
+    private static final String READ_INFORMATION =
+            "SELECT user.user_id, username, email, is_active, password, information_id, name, description, url, date, up_vote, down_vote "
+                    + "FROM information LEFT JOIN user ON information.user_id=user.user_id WHERE information_id=:information_id;";
+    private static final String UPDATE_INFORMATION =
+            "UPDATE information SET name=:name, description=:description, url=:url, user_id=:user_id, date=:date, up_vote=:up_vote, down_vote=:down_vote "
+                    + "WHERE information_id=:information_id;";
     private NamedParameterJdbcTemplate template;
 
     public InformationDAOImpl() {
@@ -51,12 +57,29 @@ public class InformationDAOImpl implements InformationDAO {
 
     @Override
     public Information read(Long primaryKey) {
-        return null;
+        SqlParameterSource paramSource = new MapSqlParameterSource("information_id", primaryKey);
+        Information information = template.queryForObject(READ_INFORMATION, paramSource, new InformationRowMapper());
+        return information;
     }
 
     @Override
-    public boolean update(Information updateObject) {
-        return false;
+    public boolean update(Information information) {
+        boolean result = false;
+        Map<String, Object> paramMap = new HashMap<String, Object>();
+        paramMap.put("information_id", information.getId());
+        paramMap.put("name", information.getName());
+        paramMap.put("description", information.getDescription());
+        paramMap.put("url", information.getUrl());
+        paramMap.put("user_id", information.getUser().getId());
+        paramMap.put("date", information.getTimestamp());
+        paramMap.put("up_vote", information.getUpVote());
+        paramMap.put("down_vote", information.getDownVote());
+        SqlParameterSource paramSource = new MapSqlParameterSource(paramMap);
+        int update = template.update(UPDATE_INFORMATION, paramSource);
+        if(update > 0) {
+            result = true;
+        }
+        return result;
     }
 
     @Override

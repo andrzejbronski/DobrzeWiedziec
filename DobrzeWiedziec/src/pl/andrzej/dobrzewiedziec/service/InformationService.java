@@ -12,8 +12,8 @@ public class InformationService {
     public void addInformation(String name, String desc, String url, User user) {
         Information information = createInformationObject(name, desc, url, user);
         DAOFactory factory = DAOFactory.getDAOFactory();
-        InformationDAO discoveryDao = factory.getInformationDAO();
-        discoveryDao.create(information);
+        InformationDAO informationDao = factory.getInformationDAO();
+        informationDao.create(information);
     }
     private Information createInformationObject(String name, String desc, String url, User user) {
         Information information = new Information();
@@ -25,14 +25,27 @@ public class InformationService {
         information.setTimestamp(new Timestamp(new Date().getTime()));
         return information;
     }
+    public Information getInformationById(long informationId) {
+        DAOFactory factory = DAOFactory.getDAOFactory();
+        InformationDAO informationDao = factory.getInformationDAO();
+        Information information = informationDao.read(informationId);
+        return information;
+    }
+
+    public boolean updateInformation(Information information) {
+        DAOFactory factory = DAOFactory.getDAOFactory();
+        InformationDAO informationDao = factory.getInformationDAO();
+        boolean result = informationDao.update(information);
+        return result;
+    }
     public List<Information> getAllInformations() {
         return getAllInformations(null);
     }
 
     public List<Information> getAllInformations(Comparator<Information> comparator) {
         DAOFactory factory = DAOFactory.getDAOFactory();
-        InformationDAO discoveryDao = factory.getInformationDAO();
-        List<Information> informations = discoveryDao.getAll();
+        InformationDAO informationDao = factory.getInformationDAO();
+        List<Information> informations = informationDao.getAll();
         if(comparator != null && informations != null) {
             informations.sort(comparator);
         }
