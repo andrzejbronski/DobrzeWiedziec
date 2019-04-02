@@ -33,7 +33,7 @@ public class InformationAddController extends HttpServlet {
             throws ServletException, IOException {
 
         if(request.getUserPrincipal() != null) {
-            request.getRequestDispatcher("new.jsp").forward(request, response);
+            request.getRequestDispatcher("WEB-INF/new.jsp").forward(request, response);
         } else {
             response.sendError(403);
         }

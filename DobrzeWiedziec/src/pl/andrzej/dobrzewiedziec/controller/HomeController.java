@@ -15,11 +15,11 @@ import java.util.List;
 
 @WebServlet("")
 public class HomeController extends HttpServlet {
-
+    private static final long serialVersionUID = 1L;
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         saveInformationsInRequest(request);
-        request.getRequestDispatcher("index.jsp").forward(request, response);
+        request.getRequestDispatcher("WEB-INF/index.jsp").forward(request, response);
     }
     private void saveInformationsInRequest(HttpServletRequest request) {
         InformationService informationService = new InformationService();
