@@ -46,7 +46,8 @@ public class VoteDAOImpl implements VoteDAO {
         SqlParameterSource paramSource = new MapSqlParameterSource(paramMap);
         int update = template.update(CREATE_VOTE, paramSource, holder);
         if(update > 0) {
-            voteCopy.setId((Long)holder.getKey());
+            voteCopy.setId(holder.getKey().longValue());
+         
         }
         return voteCopy;
     }

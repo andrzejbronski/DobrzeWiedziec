@@ -7,25 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b6f5e4-2baf-4b99-ba85-c9cc1c59a4dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/parts/footer.jspf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/parts/navbar.jspf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/controller/InformationAddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/controller/InformationAddController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/new.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/new.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/controller/InformationAddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/controller/InformationAddController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/controller/InformationAddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/controller/InformationAddController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/new.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/new.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+            <state relative-caret-position="95">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1949#1950#0" expanded="true" />
@@ -63,11 +46,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/register.jsp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+            <state relative-caret-position="190">
+              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,7 +207,6 @@
         <option value="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/filter/LoginFilter.java" />
         <option value="$PROJECT_DIR$/web/new.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/service/InformationService.java" />
         <option value="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/service/VoteService.java" />
         <option value="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/controller/VoteController.java" />
@@ -239,6 +224,7 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/new.jsp" />
         <option value="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/controller/InformationAddController.java" />
         <option value="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.java" />
       </list>
     </option>
   </component>
@@ -498,12 +484,12 @@
       <workItem from="1554059783518" duration="57212000" />
       <workItem from="1554196805435" duration="1321000" />
       <workItem from="1554203591800" duration="2559000" />
-      <workItem from="1554211113327" duration="4327000" />
+      <workItem from="1554211113327" duration="7272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65463000" />
+    <option name="totallyTimeSpent" value="68408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -772,16 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="103" column="53" lean-forward="true" selection-start-line="103" selection-start-column="53" selection-end-line="103" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/service/VoteService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -955,13 +931,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+        <state relative-caret-position="95">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1949#1950#0" expanded="true" />
             <element signature="e#2042#2043#0" expanded="true" />
             <element signature="e#3475#3491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
