@@ -2,26 +2,35 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web:war exploded" />
+      <artifact name="web:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b6f5e4-2baf-4b99-ba85-c9cc1c59a4dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/GenericDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/UserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/service/InformationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/service/InformationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/service/VoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/service/VoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/new.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/new.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/parts/navbar.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/parts/navbar.jspf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl$InformationRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl$InformationRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl$VoteRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl$VoteRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/service/InformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/service/InformationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/service/VoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/pl/andrzej/dobrzewiedziec/service/VoteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/new.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/new.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/parts/navbar.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/parts/navbar.jspf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl$InformationRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl$InformationRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/dao/InformationDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl$VoteRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl$VoteRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/dao/VoteDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/service/InformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/service/InformationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/service/VoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DobrzeWiedziec/pl/andrzej/dobrzewiedziec/service/VoteService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,15 +40,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pl/andrzej/dobrzewiedziec/service/UserService.java">
+        <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="123">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -158,10 +164,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1337" />
-    <option name="y" value="-23" />
-    <option name="width" value="1296" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1214" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -169,8 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +202,18 @@
             </path>
             <path>
               <item name="DobrzeWiedziec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DobrzeWiedziec" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DobrzeWiedziec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DobrzeWiedziec" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DobrzeWiedziec" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -211,10 +229,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554206230193" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554282270883" />
+    <property name="last_opened_file_path" value="C:/DobrzeWiedziec" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -329,18 +347,21 @@
       <workItem from="1554059783518" duration="57212000" />
       <workItem from="1554196805435" duration="1321000" />
       <workItem from="1554203591800" duration="2559000" />
-      <workItem from="1554211113327" duration="12583000" />
+      <workItem from="1554211113327" duration="13406000" />
+      <workItem from="1554274390993" duration="309000" />
+      <workItem from="1554275648300" duration="348000" />
+      <workItem from="1554277174828" duration="3187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73719000" />
+    <option name="totallyTimeSpent" value="78386000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1296" height="1040" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6764045" visible="true" weight="0.22572815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6764045" visible="true" weight="0.22012103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -352,7 +373,7 @@
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4977307" visible="true" weight="0.2779661" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4977307" weight="0.41765705" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -712,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/parts/navbar.jspf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -778,13 +792,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>web:war exploded</last-edited>
+          <last-edited>web:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
