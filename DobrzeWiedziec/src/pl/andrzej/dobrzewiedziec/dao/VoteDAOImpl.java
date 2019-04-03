@@ -47,7 +47,7 @@ public class VoteDAOImpl implements VoteDAO {
         int update = template.update(CREATE_VOTE, paramSource, holder);
         if(update > 0) {
             voteCopy.setId(holder.getKey().longValue());
-         
+
         }
         return voteCopy;
     }

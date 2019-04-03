@@ -20,7 +20,7 @@
             <h2 class="form-signin-heading">Zarejestruj się</h2>
             <input name="inputEmail" type="email" class="form-control" placeholder="Email" required autofocus />
             <input name="inputUsername" type="text" name="inputUsername" class="form-control" placeholder="Nazwa użytkownika" required autofocus />
-            <input name="inputPassword" type="password" class="form-control" placeholder="Hasło" required />
+            <input name="inputPassword" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,12}" title="Hasło powinno zawierać 8-12 znaków, conajmniej jedna wielka litera, jedna mała i jedna cyfra." class="form-control" placeholder="Hasło" required />
             <button class="btn btn-lg btn-primary btn-block" type="submit" >Zarejestruj</button>
         </form>
     </div>
