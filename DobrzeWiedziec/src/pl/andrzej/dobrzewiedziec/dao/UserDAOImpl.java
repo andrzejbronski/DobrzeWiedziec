@@ -88,6 +88,5 @@ public class UserDAOImpl implements UserDAO {
             user.setPassword(resultSet.getString("password"));
             return user;
         }
-
     }
 }

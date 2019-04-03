@@ -5,8 +5,6 @@ import java.util.List;
 
 public interface GenericDAO <T, PK extends Serializable> {
 
-    // CRUD
-
     T create(T newObject);
     T read(PK primaryKey);
     boolean update(T updateObject);

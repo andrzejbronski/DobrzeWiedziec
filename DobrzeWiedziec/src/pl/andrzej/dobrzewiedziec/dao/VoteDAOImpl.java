@@ -5,7 +5,6 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import pl.andrzej.dobrzewiedziec.model.Vote;
 
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.RowMapper;
@@ -47,7 +46,6 @@ public class VoteDAOImpl implements VoteDAO {
         int update = template.update(CREATE_VOTE, paramSource, holder);
         if(update > 0) {
             voteCopy.setId(holder.getKey().longValue());
-
         }
         return voteCopy;
     }

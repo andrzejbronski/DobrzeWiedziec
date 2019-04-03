@@ -11,7 +11,7 @@
             username="root"
             password="test"
             driverClassName="com.mysql.jdbc.Driver"
-            url="jdbc:mysql://localhost:3306/dobrze_wiedziec?useSSL=false&amp;serverTimezone=UTC" />
+            url="jdbc:mysql://localhost:3306/dobrze_wiedziec?useSSL=false&amp;serverTimezone=UTC"/>
 
     <Realm
             className="org.apache.catalina.realm.DataSourceRealm"
@@ -22,12 +22,11 @@
             userRoleTable="user_role"
             roleNameCol="role_name"
             localDataSource="true"
-           >
+    >
         <CredentialHandler
                 className="org.apache.catalina.realm.MessageDigestCredentialHandler"
                 algorithm="MD5"
         />
     </Realm>
-
 
 </Context>

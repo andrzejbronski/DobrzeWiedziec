@@ -21,6 +21,7 @@ public class UserService {
         UserDAO userDao = factory.getUserDAO();
         userDao.create(user);
     }
+
     private String encryptPassword(String password) {
         MessageDigest digest = null;
         try {
@@ -32,6 +33,7 @@ public class UserService {
         String md5Password = new BigInteger(1, digest.digest()).toString(16);
         return md5Password;
     }
+
     public User getUserById(long userId) {
         DAOFactory factory = DAOFactory.getDAOFactory();
         UserDAO userDao = factory.getUserDAO();

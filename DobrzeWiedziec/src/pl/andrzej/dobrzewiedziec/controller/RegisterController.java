@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import pl.andrzej.dobrzewiedziec.service.UserService;
 
 @WebServlet("/register")
